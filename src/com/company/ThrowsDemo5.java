@@ -1,6 +1,6 @@
 package com.company;
 
-public class ThrowsDemo {
+public class ThrowsDemo5 {
 
     public void printMessage(String key) {
         String message = getDetails(key); System.out.println( message );
@@ -29,7 +29,7 @@ public class ThrowsDemo {
     }
 
     public static void main(String[] args) {
-        ThrowsDemo td = new ThrowsDemo();
+        ThrowsDemo5 td = new ThrowsDemo5();
 
         td.printMessageSafe("Key");
         td.printMessageSafe(null);
